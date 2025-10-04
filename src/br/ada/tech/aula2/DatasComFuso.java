@@ -6,6 +6,7 @@ import java.time.ZonedDateTime;
 public class DatasComFuso {
 
     public static void main(String[] args) {
+        ZoneId.getAvailableZoneIds().forEach(System.out::println);
         ZonedDateTime zonedDateTimeSP = ZonedDateTime.now(ZoneId.of("America/Sao_Paulo"));
         ZonedDateTime zonedDateTimeAC = ZonedDateTime.now(ZoneId.of("America/Rio_Branco"));
         ZonedDateTime zonedDateTimePT = ZonedDateTime.now(ZoneId.of("Europe/Lisbon"));

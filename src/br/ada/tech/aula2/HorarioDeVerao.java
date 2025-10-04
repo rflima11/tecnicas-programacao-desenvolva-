@@ -7,7 +7,6 @@ import java.time.ZonedDateTime;
 public class HorarioDeVerao {
 
     public static void main(String[] args) {
-
         LocalDateTime dateTime = LocalDateTime.parse("2018-05-01T05:00:00");
         ZoneId zoneId = ZoneId.of("America/Sao_Paulo");
         ZonedDateTime zonedDateTimeSP = ZonedDateTime.of(dateTime, zoneId);

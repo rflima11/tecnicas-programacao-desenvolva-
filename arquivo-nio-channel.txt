@@ -1,0 +1,1 @@
+Escrevendo com channel + buffer

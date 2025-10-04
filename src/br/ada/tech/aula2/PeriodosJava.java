@@ -15,7 +15,7 @@ public class PeriodosJava {
                 35,
                 56,
                 0,
-                ZoneId.of("America/Sao_Paulo"));
+                ZoneId.systemDefault());
 
         Period period = Period.ofMonths(3);
         ZonedDateTime endDateTime = startDateTime.plus(period);

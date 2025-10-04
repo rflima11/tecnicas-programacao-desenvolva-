@@ -6,11 +6,8 @@ import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalUnit;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
 
 public class TesteDatas {
 
@@ -30,17 +27,11 @@ public class TesteDatas {
 //                        + " Tem direito a férias? " + funcionario.ehEligivelFerias()
 //        );
 
-        String a = "Teste";
-
-        System.out.println(a.toUpperCase());
-        System.out.println(a);
-
         Date date = new Date();
 
         Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.DAY_OF_MONTH, 5);
         System.out.println("Calendar pré java 8 " + calendar.getTime());
-
 
         System.out.println("Date pré java 8 " + date);
 
